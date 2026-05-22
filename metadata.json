@@ -1,0 +1,6 @@
+{
+  "name": "布兰矩阵企业级 AI 安全官网",
+  "description": "布兰矩阵企业级 AI 对话防护与算法安全测试平台官方网站，包含矩盾 AI 对话防护模型及 BraneMatrix 算法安全测试能力平台。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
