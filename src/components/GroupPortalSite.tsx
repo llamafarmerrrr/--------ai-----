@@ -41,7 +41,7 @@ export default function GroupPortalSite({ onSelectProduct }: GroupPortalSiteProp
         <MatrixTechBackground theme="dark" />
         
         <div className="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
-          <div className="max-w-3xl space-y-6">
+          <div className="max-w-5xl space-y-6">
             
             {/* Tagline */}
             <div className="inline-flex items-center space-x-2 bg-indigo-500/10 border border-indigo-500/20 px-3 py-1 rounded-full text-xs text-indigo-400 font-mono tracking-wider">
@@ -60,25 +60,44 @@ export default function GroupPortalSite({ onSelectProduct }: GroupPortalSiteProp
             </p>
 
             {/* Corporate Trust Badges / Compliance Footprints */}
-            <div className="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
-              <div className="bg-slate-900/50 border border-slate-850 p-3 rounded-lg flex items-center space-x-2.5">
+            <div className="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-4">
+              <div className="flex items-center space-x-2.5">
                 <Lock className="text-indigo-400 h-4 w-4 shrink-0" />
                 <span className="text-xs text-slate-300 font-medium">算法备案合规对齐</span>
               </div>
-              <div className="bg-slate-900/50 border border-slate-850 p-3 rounded-lg flex items-center space-x-2.5">
+              <div className="flex items-center space-x-2.5">
                 <Activity className="text-indigo-400 h-4 w-4 shrink-0" />
                 <span className="text-xs text-slate-300 font-medium">抗对抗漏洞实战防御</span>
               </div>
-              <div className="bg-slate-900/50 border border-slate-850 p-3 rounded-lg flex items-center space-x-2.5">
+              <div className="flex items-center space-x-2.5">
                 <Award className="text-indigo-400 h-4 w-4 shrink-0" />
                 <span className="text-xs text-slate-300 font-medium">OmniSafe 联合评测</span>
               </div>
-              <div className="bg-slate-900/50 border border-slate-850 p-3 rounded-lg flex items-center space-x-2.5">
+              <div className="flex items-center space-x-2.5">
                 <BookOpen className="text-indigo-400 h-4 w-4 shrink-0" />
                 <span className="text-xs text-slate-300 font-medium">可信大模型安全治理</span>
               </div>
             </div>
 
+          </div>
+
+          <div className="mt-10 lg:mt-0 lg:absolute lg:right-8 lg:top-1/2 lg:-translate-y-1/2 lg:w-80">
+            <div className="w-full border border-indigo-500/30 bg-slate-950/80 backdrop-blur-xl rounded-xl p-5 shadow-2xl shadow-indigo-950/30">
+              <p className="text-[10px] font-mono tracking-widest uppercase text-indigo-300 mb-2">Enterprise Inquiry</p>
+              <h2 className="text-lg font-extrabold text-white leading-snug">
+                需要企业级 AI 安全方案？
+              </h2>
+              <p className="text-xs text-slate-400 leading-relaxed mt-3">
+                获取矩盾与 BraneMatrix 的部署建议、测试沙箱和合规材料清单。
+              </p>
+              <a
+                href="mailto:bd@branematrix.com"
+                className="mt-5 w-full inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-extrabold text-sm px-5 py-3.5 rounded-lg transition shadow-lg shadow-indigo-900/40"
+              >
+                <span>联系销售</span>
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </div>
           </div>
         </div>
       </section>

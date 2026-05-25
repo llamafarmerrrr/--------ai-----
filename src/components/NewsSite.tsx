@@ -110,7 +110,7 @@ export default function NewsSite() {
             <span>布兰安全实验室前沿動態</span>
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight">
-            新闻中心 & 学术成果
+            Blog & 学术成果
           </h1>
           <p className="text-slate-400 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
             为您带来布兰矩阵大模型红队攻防、对齐技术指标、备案合规解读以及前沿顶级会议科研成果的第一手独家快讯。

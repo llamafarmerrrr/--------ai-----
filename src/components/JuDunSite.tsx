@@ -401,6 +401,13 @@ export default function JuDunSite() {
                 <a href="#judun-cta" className="px-6 py-3 bg-white text-slate-700 border border-slate-300 font-medium hover:bg-slate-50 transition flex items-center justify-center rounded">
                   预约演示 / 获取白皮书PDF
                 </a>
+                <a
+                  href="mailto:bd@branematrix.com"
+                  className="px-6 py-3 bg-slate-900 text-white font-bold hover:bg-slate-800 transition flex items-center justify-center gap-2 rounded shadow-sm"
+                >
+                  <span>联系销售</span>
+                  <ArrowRight className="h-4 w-4" />
+                </a>
               </div>
             </div>
 

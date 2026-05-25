@@ -359,6 +359,13 @@ export default function BraneMatrixSite() {
               <a href="#pl-cta" className="px-6 py-3 bg-slate-900 border border-slate-800 text-slate-300 font-bold hover:bg-slate-850 hover:text-white transition rounded">
                 获取试用账密 / 上门对齐评估
               </a>
+              <a
+                href="mailto:bd@branematrix.com"
+                className="px-6 py-3 bg-white text-slate-950 font-extrabold hover:bg-blue-50 transition flex items-center justify-center gap-2 rounded shadow-lg shadow-blue-950/30"
+              >
+                <span>联系销售</span>
+                <ArrowRight className="h-4 w-4" />
+              </a>
             </div>
 
             {/* Icons indicators */}

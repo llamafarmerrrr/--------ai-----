@@ -53,8 +53,14 @@ export default function App() {
             </div>
           </div>
 
-          {/* Nav Items (Desktop): Logo | 关于我们 | 产品服务 (Aligned to prevent overlapping) | 新闻中心 */}
+          {/* Nav Items (Desktop): Logo | 主页 | 关于我们 | 产品服务 | Blog */}
           <nav className="hidden lg:flex items-center space-x-8 text-xs font-semibold text-slate-300">
+            <button
+              onClick={() => setActiveProduct("group")}
+              className={`hover:text-white transition py-1 cursor-pointer ${activeProduct === "group" ? "text-white underline decoration-indigo-500 underline-offset-4 font-bold" : "text-slate-300"}`}
+            >
+              主页
+            </button>
             
             <button 
               onClick={() => setActiveProduct("about")}
@@ -104,7 +110,7 @@ export default function App() {
               onClick={() => setActiveProduct("news")}
               className={`hover:text-white transition py-1 cursor-pointer ${activeProduct === "news" ? "text-white underline decoration-indigo-500 underline-offset-4 font-bold" : "text-slate-300"}`}
             >
-              新闻中心
+              Blog
             </button>
           </nav>
 
@@ -177,8 +183,9 @@ export default function App() {
                   </span>
                   
                   {[
+                    { id: "group", label: "主页" },
                     { id: "about", label: "关于我们" },
-                    { id: "news", label: "新闻中心" }
+                    { id: "news", label: "Blog" }
                   ].map((link) => (
                     <button
                       key={link.id}
