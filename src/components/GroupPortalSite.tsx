@@ -60,22 +60,22 @@ export default function GroupPortalSite({ onSelectProduct }: GroupPortalSiteProp
             </p>
 
             {/* Corporate Trust Badges / Compliance Footprints */}
-            <div className="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-4">
-              <div className="flex items-center space-x-2.5">
-                <Lock className="text-indigo-400 h-4 w-4 shrink-0" />
-                <span className="text-xs text-slate-300 font-medium">算法备案合规对齐</span>
+            <div className="pt-6 max-w-2xl grid grid-cols-2 sm:grid-cols-4 gap-x-5 gap-y-3 text-left">
+              <div className="flex items-center gap-2">
+                <Lock className="text-indigo-400 h-3.5 w-3.5 shrink-0" />
+                <span className="text-xs text-slate-300 font-medium leading-none">算法备案合规对齐</span>
               </div>
-              <div className="flex items-center space-x-2.5">
-                <Activity className="text-indigo-400 h-4 w-4 shrink-0" />
-                <span className="text-xs text-slate-300 font-medium">抗对抗漏洞实战防御</span>
+              <div className="flex items-center gap-2">
+                <Activity className="text-indigo-400 h-3.5 w-3.5 shrink-0" />
+                <span className="text-xs text-slate-300 font-medium leading-none">抗对抗漏洞实战防御</span>
               </div>
-              <div className="flex items-center space-x-2.5">
-                <Award className="text-indigo-400 h-4 w-4 shrink-0" />
-                <span className="text-xs text-slate-300 font-medium">OmniSafe 联合评测</span>
+              <div className="flex items-center gap-2">
+                <Award className="text-indigo-400 h-3.5 w-3.5 shrink-0" />
+                <span className="text-xs text-slate-300 font-medium leading-none">OmniSafe 联合评测</span>
               </div>
-              <div className="flex items-center space-x-2.5">
-                <BookOpen className="text-indigo-400 h-4 w-4 shrink-0" />
-                <span className="text-xs text-slate-300 font-medium">可信大模型安全治理</span>
+              <div className="flex items-center gap-2">
+                <BookOpen className="text-indigo-400 h-3.5 w-3.5 shrink-0" />
+                <span className="text-xs text-slate-300 font-medium leading-none">可信大模型安全治理</span>
               </div>
             </div>
 
