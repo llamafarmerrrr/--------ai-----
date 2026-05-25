@@ -208,6 +208,42 @@ export default function GroupPortalSite({ onSelectProduct }: GroupPortalSiteProp
         </div>
       </section>
 
+      {/* 4. Multi-agent Scientific Safety Research center */}
+      <section id="group-news" className="py-20 bg-transparent relative z-10">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <h2 className="text-xs font-semibold tracking-wide text-slate-500">布兰安全实验室 · 立足科学前沿</h2>
+            <p className="text-xl md:text-2xl font-bold text-white mt-1">深研安全边界，与工业界共同成长</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <div className="bg-slate-900/40 border border-slate-850 p-6 rounded-lg text-left">
+              <span className="text-xs font-mono text-indigo-400 block mb-2">2026 第一季度白皮书</span>
+              <h4 className="text-sm font-bold text-white">大模型对抗防御与高时延补偿诊断</h4>
+              <p className="text-xs text-slate-400 mt-2 leading-relaxed">
+                详细探讨如何利用高性能本地CoT推理拦截大模型对抗提示词攻击，不损失主模型的反馈时效。
+              </p>
+            </div>
+
+            <div className="bg-slate-900/40 border border-slate-850 p-6 rounded-lg text-left">
+              <span className="text-xs font-mono text-indigo-400 block mb-2">多模态评测标准</span>
+              <h4 className="text-sm font-bold text-white">OmniSafeBench-MM 评测体系说明书</h4>
+              <p className="text-xs text-slate-400 mt-2 leading-relaxed">
+                覆盖视频、图像、跨模态多模威胁，包含 10 余个全新评测主客观维度和对抗加权评价函数。
+              </p>
+            </div>
+
+            <div className="bg-slate-900/40 border border-slate-850 p-6 rounded-lg text-left">
+              <span className="text-xs font-mono text-indigo-400 block mb-2">国家级安全规范参考</span>
+              <h4 className="text-sm font-bold text-white">大语言模型合规快速准入自查清单</h4>
+              <p className="text-xs text-slate-400 mt-2 leading-relaxed">
+                映射互联网安全标准，为开发者整理大模型算法备案所需要达到的最简量化指标基准。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 3. Ginkeley Highlight Section (C-end Showcase) */}
       <section className="py-20 bg-transparent border-b border-slate-900/60 relative z-10">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
@@ -280,42 +316,6 @@ export default function GroupPortalSite({ onSelectProduct }: GroupPortalSiteProp
               </div>
             </div>
 
-          </div>
-        </div>
-      </section>
-
-      {/* 4. Multi-agent Scientific Safety Research center */}
-      <section id="group-news" className="py-20 bg-transparent relative z-10">
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-xs font-mono tracking-widest uppercase text-slate-500">布 兰 安全 实验室 立足 科学 前沿</h2>
-            <p className="text-xl md:text-2xl font-bold text-white mt-1">深研安全边界，与工业界共同成长</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-slate-900/40 border border-slate-850 p-6 rounded-lg text-left">
-              <span className="text-xs font-mono text-indigo-400 block mb-2">2026 第一季度白皮书</span>
-              <h4 className="text-sm font-bold text-white">大模型对抗防御与高时延补偿诊断</h4>
-              <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-                详细探讨如何利用高性能本地CoT推理拦截大模型对抗提示词攻击，不损失主模型的反馈时效。
-              </p>
-            </div>
-
-            <div className="bg-slate-900/40 border border-slate-850 p-6 rounded-lg text-left">
-              <span className="text-xs font-mono text-indigo-400 block mb-2">多模态评测标准</span>
-              <h4 className="text-sm font-bold text-white">OmniSafeBench-MM 评测体系说明书</h4>
-              <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-                覆盖视频、图像、跨模态多模威胁，包含 10 余个全新评测主客观维度和对抗加权评价函数。
-              </p>
-            </div>
-
-            <div className="bg-slate-900/40 border border-slate-850 p-6 rounded-lg text-left">
-              <span className="text-xs font-mono text-indigo-400 block mb-2">国家级安全规范参考</span>
-              <h4 className="text-sm font-bold text-white">大语言模型合规快速准入自查清单</h4>
-              <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-                映射互联网安全标准，为开发者整理大模型算法备案所需要达到的最简量化指标基准。
-              </p>
-            </div>
           </div>
         </div>
       </section>
